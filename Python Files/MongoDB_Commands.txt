@@ -1,0 +1,14 @@
+/** mongodb instance start **/
+sudo service mongod start
+
+/** Statements for importing **/
+mongoimport --db dwdm --collection news --jsonArray --file /home/ubuntu/Python\ Files/news.json
+
+mongoimport --db dwdm --collection movies --jsonArray --file /home/ubuntu/Python\ Files/moviesratings.json
+
+mongoimport --db dwdm --collection tweets --jsonArray --file /home/ubuntu/Python\ Files/tweets.json
+	
+/** Spark processing command **/
+sudo spark-2.4.5-bin-hadoop2.7/bin/spark-submit wordcount.py
+
+db.createUser({user:"satya", pwd:"satya123", roles:[{role:"readWrite",db:"test"}]})
