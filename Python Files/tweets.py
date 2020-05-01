@@ -9,10 +9,10 @@ import fileConverter
 
 # Twitter Credentials
 twitter_keys = {
-            'consumer_key': 'iTqwAeSi4ZbOX3SNMAPdlvouV',
-            'consumer_secret': 'u70QOrP9Xrv6ZeKzlIw7aZZZB1U6xONfCXRy5bZJQd2X8JqMjn',
-            'access_token': '1232333140292784128-CUSOt4mFaW0ZHVHl13bkVEQ4JRUyGb',
-            'access_token_secret': 'l62oipFN72kLoOOpwbXupsg0fgZb6YEkLNGTnReaL8ZXX'
+            'consumer_key': '**************',
+            'consumer_secret': '**********************',
+            'access_token': '********************-***********************',
+            'access_token_secret': '*************************'
         }
 
 # Authorization to Tweepy API
